@@ -11,7 +11,8 @@ namespace fx2core
             var core2fxlib = LoadLibrary("core2fxNE.dll");
             if (core2fxlib == null)
             {
-                Console.Error.WriteLine("Make sure you compiled core2fx and copied all files next to the fx2core app.");
+                Console.Error.WriteLine("Make sure you compiled core2fx and copied all output files next to the fx2core app.");
+                Console.ReadLine();
                 return;
             }
             var preload_runtime = GetProcAddress(core2fxlib, "preload_runtime");
