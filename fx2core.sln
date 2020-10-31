@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fx2core", "fx2core\fx2core.csproj", "{82C3DC43-296E-4B32-9C4F-AA5D8FF0C011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core2fx", "core2fx\core2fx.csproj", "{37825E00-80F5-475C-8843-C0C1B330868F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C3DC43-296E-4B32-9C4F-AA5D8FF0C011}.Debug|x64.ActiveCfg = Debug|x64
+		{82C3DC43-296E-4B32-9C4F-AA5D8FF0C011}.Debug|x64.Build.0 = Debug|x64
+		{82C3DC43-296E-4B32-9C4F-AA5D8FF0C011}.Release|x64.ActiveCfg = Release|x64
+		{82C3DC43-296E-4B32-9C4F-AA5D8FF0C011}.Release|x64.Build.0 = Release|x64
+		{37825E00-80F5-475C-8843-C0C1B330868F}.Debug|x64.ActiveCfg = Debug|x64
+		{37825E00-80F5-475C-8843-C0C1B330868F}.Debug|x64.Build.0 = Debug|x64
+		{37825E00-80F5-475C-8843-C0C1B330868F}.Release|x64.ActiveCfg = Release|x64
+		{37825E00-80F5-475C-8843-C0C1B330868F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6341BD0B-E4A1-44BB-B5CA-01CC88BA1389}
+	EndGlobalSection
+EndGlobal

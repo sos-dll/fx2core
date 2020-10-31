@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net4.8</TargetFramework>
+		<Platforms>x64</Platforms>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Vanara.Core" Version="3.2.19" />
+	  <PackageReference Include="Vanara.PInvoke.Kernel32" Version="3.2.19" />
+	  <PackageReference Include="Vanara.PInvoke.Shared" Version="3.2.19" />
+	</ItemGroup>
+</Project>
